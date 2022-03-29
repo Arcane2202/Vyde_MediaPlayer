@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Vyde.jnlp">
+  <information>
+    <title>Vyde</title>
+    <vendor>User</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Vyde.jar" size="11461004" download="eager" />
+    <jar href="lib\derby.jar" size="3232770" download="eager" />
+    <jar href="lib\derbyLocale_cs.jar" size="94559" download="eager" />
+    <jar href="lib\derbyLocale_de_DE.jar" size="112080" download="eager" />
+    <jar href="lib\derbyLocale_es.jar" size="105743" download="eager" />
+    <jar href="lib\derbyLocale_fr.jar" size="112023" download="eager" />
+    <jar href="lib\derbyLocale_hu.jar" size="95250" download="eager" />
+    <jar href="lib\derbyLocale_it.jar" size="105694" download="eager" />
+    <jar href="lib\derbyLocale_ja_JP.jar" size="123471" download="eager" />
+    <jar href="lib\derbyLocale_ko_KR.jar" size="117387" download="eager" />
+    <jar href="lib\derbyLocale_pl.jar" size="93246" download="eager" />
+    <jar href="lib\derbyLocale_pt_BR.jar" size="90454" download="eager" />
+    <jar href="lib\derbyLocale_ru.jar" size="121128" download="eager" />
+    <jar href="lib\derbyLocale_zh_CN.jar" size="109573" download="eager" />
+    <jar href="lib\derbyLocale_zh_TW.jar" size="110848" download="eager" />
+    <jar href="lib\derbyclient.jar" size="588394" download="eager" />
+    <jar href="lib\derbynet.jar" size="272626" download="eager" />
+    <jar href="lib\derbyoptionaltools.jar" size="82287" download="eager" />
+    <jar href="lib\derbyrun.jar" size="9634" download="eager" />
+    <jar href="lib\derbytools.jar" size="230725" download="eager" />
+    <jar href="lib\javafx-swt.jar" size="36675" download="eager" />
+    <jar href="lib\javafx.base.jar" size="744505" download="eager" />
+    <jar href="lib\javafx.controls.jar" size="2508818" download="eager" />
+    <jar href="lib\javafx.fxml.jar" size="125617" download="eager" />
+    <jar href="lib\javafx.graphics.jar" size="4289319" download="eager" />
+    <jar href="lib\javafx.media.jar" size="264239" download="eager" />
+    <jar href="lib\javafx.swing.jar" size="87867" download="eager" />
+    <jar href="lib\javafx.web.jar" size="704708" download="eager" />
+    <jar href="lib\rs2xml.jar" size="171578" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="vyde.Vyde"  name="Vyde" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 29, 2021, 5:31:51 AM
+    Author     : User
+*/
+
+#playButton
+{
+    -fx-background-image: url("../images/Play.png");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+
+}
+
+#stopButton{
+    -fx-background-image: url("../images/Stop.png");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+
+}
+
+#prevB{
+    -fx-background-image: url("../images/Prev.png");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+
+}
+
+#nextB{
+    -fx-background-image: url("../images/Next.png");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+
+}
+
+#rewindB{
+    -fx-background-image: url("../images/Rewind.png");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+
+}
+
+#forwardB{
+    -fx-background-image: url("../images/FastForward.png");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+
+}
+
+#slowButton{
+    -fx-background-image: url("../images/Decrease.png");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+
+}
+
+#fastButton{
+    -fx-background-image: url("../images/Increase.png");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+
+}
+
+#muteButton{
+    -fx-background-image: url("../images/b.jpg");
+    -fx-background-size: 50 50;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+
+}
+
+#MenuBar {
+    -fx-background-color: #A9A9A9;
+}
+#BorderPane{
+
+    -fx-background-image: url("../images/BackG.gif");
+    -fx-background-size: 975 625;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+
+}
+.highlight { 
+    -fx-background-color: #00000025; 
+    /* ⇆ ㅤ ||◁ ㅤ ❚❚ ㅤ ▷ || ㅤ ↻
+     
+     ↻ ◁ II ▷ ↺
+  
+     ◁◁ ▐ ▌ ▷▷
+     
+     ㅤ*/
+}
+
+
+.highlight { 
+    -fx-background-color: #00000025; 
+
+}
+.root { -fx-background-color: #222; } 

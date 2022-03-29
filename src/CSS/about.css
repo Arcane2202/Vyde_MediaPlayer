@@ -1,0 +1,18 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 29, 2021, 6:24:23 AM
+    Author     : User
+*/
+
+#Pane{
+
+    -fx-background-image: url("../images/logo2.gif");
+    -fx-background-size: 600 400;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    
+}

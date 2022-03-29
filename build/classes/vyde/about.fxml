@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="Pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="181.0" layoutY="14.0" prefHeight="74.0" prefWidth="223.0" text="ABOUT US" textFill="#009df2" underline="true">
+         <font>
+            <Font name="Calibri Bold" size="49.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="88.0" prefHeight="46.0" prefWidth="343.0" text="This Project Is Done By:" textFill="#df00ef">
+         <font>
+            <Font name="Calibri" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="134.0" prefHeight="46.0" prefWidth="546.0" text="-&gt; MD. Tanveer Shams (ID: 190204060)" textFill="#eaf704">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="177.0" prefHeight="46.0" prefWidth="546.0" text="-&gt; Mahin Hossain (ID: 190204061)" textFill="#eaf704">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="235.0" prefHeight="46.0" prefWidth="343.0" text="Special Thanks To:" textFill="#df00ef">
+         <font>
+            <Font name="Calibri" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="281.0" prefHeight="46.0" prefWidth="546.0" text="Sajib kumar Saha Joy Sir" textFill="#04f711">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="327.0" prefHeight="46.0" prefWidth="546.0" text="Md. Reasad Zaman Chowdhury Sir" textFill="#04f711">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Label>
+   </children>
+   <stylesheets>
+      <URL value="@style.css" />
+      <URL value="@style2.css" />
+   </stylesheets>
+</Pane>

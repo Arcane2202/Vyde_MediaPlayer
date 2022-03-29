@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="737.0" prefWidth="597.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vyde.PlayListController">
+   <children>
+      <Label layoutX="34.0" layoutY="27.0" prefHeight="21.0" prefWidth="134.0" text="Playlist Name:">
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <TextField fx:id="text0" layoutX="34.0" layoutY="60.0" prefHeight="31.0" prefWidth="535.0">
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <Label layoutX="34.0" layoutY="149.0" prefHeight="21.0" prefWidth="134.0" text="Media Files:">
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <VBox layoutX="34.0" layoutY="185.0" prefHeight="497.0" prefWidth="390.0">
+         <children>
+            <ListView fx:id="PlayList" prefHeight="498.0" prefWidth="390.0">
+               <effect>
+                  <Glow />
+               </effect>
+            </ListView>
+         </children>
+      </VBox>
+      <VBox layoutX="438.0" layoutY="185.0" prefHeight="498.0" prefWidth="134.0" spacing="12.0">
+         <children>
+            <Button fx:id="addButton" mnemonicParsing="false" onAction="#addSongs" prefHeight="31.0" prefWidth="137.0" text="Add" />
+            <Button fx:id="removeButton" mnemonicParsing="false" onAction="#removeSongs" prefHeight="31.0" prefWidth="137.0" text="Remove" />
+            <Button fx:id="doneButton" mnemonicParsing="false" onAction="#doneCreating" prefHeight="31.0" prefWidth="136.0" text="Done" />
+         </children>
+         <effect>
+            <Reflection />
+         </effect>
+         <opaqueInsets>
+            <Insets top="10.0" />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</AnchorPane>
